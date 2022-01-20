@@ -13,5 +13,7 @@
   "devDependencies": {
     "parcel": "^2.2.1",
     "pegjs": "^0.10.0"
-  }
+  },
+  "keywords": ["bbcode", "parser", "sax"],
+  "homepage": "https://github.com/an0nusr/bbcode-parser-sax"
 }
