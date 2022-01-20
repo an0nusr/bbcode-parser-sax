@@ -46,3 +46,7 @@ For ESM:
 import parser from 'bbcode-parser-sax'
 return parser.parse(BBCODE_STRING)
 ```
+
+## Tests
+This package has a few basic tests to confirm the parser is working.
+Run `yarn test` to execute the tests. 

@@ -8,12 +8,18 @@
   "license": "MIT",
   "scripts": {
     "build-parser": "pegjs -o bbcode-parser.js grammar.pegjs",
-    "build": "yarn build-parser && parcel build"
+    "build": "yarn build-parser && parcel build",
+    "test": "jest"
   },
   "devDependencies": {
+    "jest": "^27.4.7",
     "parcel": "^2.2.1",
     "pegjs": "^0.10.0"
   },
-  "keywords": ["bbcode", "parser", "sax"],
+  "keywords": [
+    "bbcode",
+    "parser",
+    "sax"
+  ],
   "homepage": "https://github.com/an0nusr/bbcode-parser-sax"
 }
