@@ -1,0 +1,17 @@
+{
+  "name": "bbcode-parser-sax",
+  "description": "A simple, dependency-free parser for BBCode, based on SAX.",
+  "version": "1.0.0",
+  "source": "bbcode-parser.js",
+  "main": "dist/bbcode-parser.js",
+  "module": "dist/bbcode-parser.esm.js",
+  "license": "MIT",
+  "scripts": {
+    "build-parser": "pegjs -o bbcode-parser.js grammar.pegjs",
+    "build": "yarn build-parser && parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.2.1",
+    "pegjs": "^0.10.0"
+  }
+}
