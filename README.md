@@ -28,9 +28,13 @@ as `tag: { name: 'url', value: 'https://site.com' }`.
 This style allows the parser to be simple, and makes it easy to adapt
 the output to whatever you'd like!
 
+## Installation
+A package with both CommonJS and ES Modules is available on NPM. 
+You can install it with `yarn add bbcode-parser-sax` or `npm install bbcode-parser-sax`
+
 ## Building
-Run `yarn build` from the project directory to both generate the parser
-from the grammar, and to build cjs and esm outputs. 
+To build the package from source, run `yarn build` from the project directory to
+both generate the parser from the grammar, and to build cjs and esm outputs.
 
 ## Usage
 Usage will depend if you're using this with CommonJS or ESM
